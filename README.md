@@ -17,3 +17,9 @@ Before running the application, make sure you have the following installed:
 
 - Python 3.10+
 - pip (Python package manager)
+
+## Install dependencies
+pip install -r requirements.txt
+
+## Run FastAPI server
+uvicorn main:app --reload
