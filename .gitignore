@@ -1,0 +1,14 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__
+
+# Virtual environments
+env/
+venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# ChromaDB files (optional, depending on the project)
+chroma_db/
