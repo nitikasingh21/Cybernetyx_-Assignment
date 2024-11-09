@@ -23,3 +23,22 @@ pip install -r requirements.txt
 
 ## Run FastAPI server
 uvicorn main:app --reload
+
+## To upload a document for indexing
+
+Request
+{
+  "file": "file_content_here"
+}
+
+## To query the documents based on a search query
+
+Request
+{
+  "query": "search query text"
+}
+
+Response
+{
+  "results": ["Document 1", "Document 2"]
+}
